@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Arts-Communication</title>
+<title>ビジネスサイトサイト向け 無料ホームページテンプレート tp_biz48</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="ここにサイト説明を入れます">
 <meta name="keywords" content="キーワード１,キーワード２,キーワード３,キーワード４,キーワード５">
@@ -15,7 +15,7 @@
 <![endif]-->
 </head>
 
-<body class="s-n">
+<body>
 
 <header>
 <div class="inner">
@@ -25,9 +25,9 @@
 <ul class="inner">
 <li><a href="index.html">HOME</a></li>
 <li><a href="company.html">ABOUT US</a></li>
-<li><a href="service.html">SERVICE</a></li>
-    <li><a href="link.html">LINK</a></li>
-<li class="current"><a href="contact.html">CONTACT</a></li>
+<li><a href="service.html">EVENT</a></li>
+<li class="current"><a href="link.html">LINK</a></li>
+<li><a href="contact.html">CONTACT</a></li>
 </ul>
 </nav>
 </div>
@@ -38,57 +38,41 @@
 <ul>
 <li><a href="index.html">HOME</a></li>
 <li><a href="company.html">ABOUT US</a></li>
-<li><a href="service.html">SERVICE</a></li>
-    <li><a href="link.html">LINK</a></li>
-<li><a href="form.html">CONTACT</a></li>
+<li><a href="service.html">EVENT</a></li>
+<li><a href="link.html">LINK</a></li>
+<li><a href="contact.html">CONTACT</a></li>
 </ul>
 </nav>
 
 <div class="contents">
 <div class="inner">
 
+<div class="main">
+
 <section>
 
-<h2>確認画面</h2>
+<h2>リンク</h2>
+<p>リンクのご案内。</p>
 
-<!-- フォームの情報はここからです -->
-<form name="form1" enctype="multipart/form-data" method="post" action="<?php echo $_SERVER["REQUEST_URI"];?>">
-<input type="hidden" name="mode" value="confirm">
 <table class="ta1">
-<!--<tr><td colspan="2" class="auto"><strong>確認画面</strong></td></tr>-->
-<!-- 入力／確認 -->
-<!--<tr><th class="tamidashi" colspan="2">お問い合わせフォーム</th></tr>-->
 <tr>
-<th width="150">お名前<span style="color:red">※</span></th>
-<td>
-<input type="hidden" name="item1" value="<?php echo $form["item1"];?>">
-<?php echo $form["item1"];?>
-</td>
+<th colspan="2" class="tamidashi">見出しが必要であればここを使います</th>
 </tr>
 <tr>
-<th width="150">メールアドレス<span style="color:red">※</span></th>
-<td>
-<input type="hidden" name="item2" value="<?php echo $form["item2"];?>">
-<?php echo $form["item2"];?>
-</td>
-</tr>
-<tr>
-<th>お問い合わせ内容<span style="color:red">※</span></th>
-<td>
-<input type="hidden" name="item3" value="<?php echo $form["item3"]; ?>">
-<?php echo nl2br($form["item3"]);?>
-</td>
+    <th><a href="#">サイト名</a></th>
+    <td>ここに説明など入れて下さい。サンプルテキスト。</td>
 </tr>
 </table>
-<div class="c">
-<input type="submit" value="送信する">
-&nbsp;
-<input type="button" value="戻る" onClick="document.form1.mode.value='reinput';document.form1.submit()">
-</div>
-</form>
-<!-- フォームの情報はここまでです -->
 
 </section>
+
+</div>
+<!--/main-->
+
+
+
+</div>
+<!--/sub-->
 
 </div>
 <!--/inner-->
@@ -99,6 +83,10 @@
 
 <footer>
 
+<div id="footermenu" class="inner">
+
+</div>
+<!--footermenu-->
 
 <div id="copyright">
 <small>Copyright&copy; <a href="index.html">SAMPLE COMPANY</a> All Rights Reserved.</small>

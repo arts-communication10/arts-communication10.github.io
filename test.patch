@@ -1,0 +1,29 @@
+Index: company.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- company.html	(date 1539644645000)
++++ company.html	(date 1539645130638)
+@@ -57,10 +57,18 @@
+                 　芸術や歴史、経済学や音楽、言語など多様な 学問分野を意味する言葉です。<br>
+ 
+                 <p><strong class="color1">■理念</strong><br>
+-                    　<br>
++
++                   私たちは一つの分野にとどまらずに（arts）
++                    多様な価値観、個性を持つ人たちをつなげたい（communication）という理念の元に活動しています。</p><br><br>
+ 
+-                    <br>私たちは一つの分野にとどまらずに（arts）
+-                    多様な価値観、個性を持つ人たちをつなげたい（communication）という理念の元に活動しています。</p>
++                <p><strong class="color1">■メンバー募集中！</strong><br>
++                    　サイエンスコミュニケーション及びリスクコミュニケーションに興味がある学生さんを募集しています。<br>
++                  気になる方はぜひご連絡ください<br>
++                    （その際はCONTACTで件名にメンバー希望とご記入ください）
++                　
++
++                <p><strong class="color1">■お問合せ</strong><br>
++                    　何かございましたらCONTACTよりお気軽にお問い合わせください<br>
+ 
+                 <br><br><br><br><br><br><br><br><br><br><br><br>
+ 
